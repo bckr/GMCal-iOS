@@ -96,7 +96,7 @@
         NSDateComponents *start = [NBSchedule timeForPeriod:[myClass.start intValue]];
         NSDateComponents *end = [NBSchedule timeForPeriod:[myClass endOfClass]];
         NSString *day = [NBSchedule dayForPeriod:[myClass.day intValue]];
-        ((NBClassCompactCell *)cell).classTime.text = [NSString stringWithFormat:@"%@s: %02d:%02d - %02d:%02d", day, start.hour, start.minute, end.hour, end.minute];
+        ((NBClassCompactCell *)cell).classTime.text = [NSString stringWithFormat:@"%@s: %02ld:%02ld - %02ld:%02ld", day, (long)start.hour, (long)start.minute, (long)end.hour, (long)end.minute];
 
        ((NBClassCompactCell *)cell).classTypeIndicatorColor = [NBSchedule colorForTypeOfClass:myClass];
 

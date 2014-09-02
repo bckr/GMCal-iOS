@@ -62,7 +62,7 @@
 
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     NBInitialSettingsBranchViewController *nextView = segue.destinationViewController;
-    unsigned index = self.tableView.indexPathForSelectedRow.row;
+    unsigned index = (unsigned)self.tableView.indexPathForSelectedRow.row;
     nextView.branchesToDisplay = [nextView.branchesForMajor objectAtIndex:index];
 }
 

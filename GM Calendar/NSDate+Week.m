@@ -13,7 +13,7 @@
 - (int)weekday {
     NSCalendar *cal = [NSCalendar currentCalendar];
     NSDateComponents *comp = [cal components:NSWeekdayCalendarUnit fromDate:self];
-    return comp.weekday;
+    return (int)comp.weekday;
 }
 
 - (NSDate *)nextDay {

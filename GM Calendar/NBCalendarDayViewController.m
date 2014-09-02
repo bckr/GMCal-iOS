@@ -96,7 +96,7 @@
     cell.lecturerNameLabel.text = [[[myClass lecturers] allObjects] componentsJoinedByString:@", "];
     NSDateComponents *start = [NBSchedule timeForPeriod:[myClass.start intValue]];
     NSDateComponents *end = [NBSchedule timeForPeriod:[myClass endOfClass]];
-    cell.classTime.text = [NSString stringWithFormat:@"%02d:%02d - %02d:%02d", start.hour, start.minute, end.hour, end.minute];
+    cell.classTime.text = [NSString stringWithFormat:@"%02ld:%02ld - %02ld:%02ld", (long)start.hour, (long)start.minute, (long)end.hour, (long)end.minute];
     cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     cell.classTypeIndicatorColor = [NBSchedule colorForTypeOfClass:myClass];
     cell.classTypeText = [myClass.type stringByPaddingToLength:1 withString:myClass.type startingAtIndex:0];

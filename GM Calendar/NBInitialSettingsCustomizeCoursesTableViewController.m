@@ -80,7 +80,7 @@
     NSDateComponents *start = [NBSchedule timeForPeriod:[currentClass.start intValue]];
     NSDateComponents *end = [NBSchedule timeForPeriod:([currentClass.start intValue] + 1)];
     NSString *day = [NBSchedule dayForPeriod:[currentClass.day intValue]];
-    cell.courseLecturers.text = [NSString stringWithFormat:@"%@: %02d:%02d - %02d:%02d", day, start.hour, start.minute, end.hour, end.minute];
+    cell.courseLecturers.text = [NSString stringWithFormat:@"%@: %02ld:%02ld - %02ld:%02ld", day, (long)start.hour, (long)start.minute, (long)end.hour, (long)end.minute];
     cell.courseTypeIndicatorColor = [NBSchedule colorForTypeOfClass:currentClass];
     
     if ([self.selectedCourses containsObject:[self.classes objectAtIndex:indexPath.row]]) {

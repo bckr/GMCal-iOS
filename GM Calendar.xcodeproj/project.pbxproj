@@ -53,7 +53,6 @@
 		29E30E1A16346ED3009D4F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E30E1816346ED3009D4F34 /* InfoPlist.strings */; };
 		29E30E1C16346ED3009D4F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E30E1B16346ED3009D4F34 /* main.m */; };
 		29E30E2016346ED3009D4F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E30E1F16346ED3009D4F34 /* AppDelegate.m */; };
-		29E30E3416346ED4009D4F34 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E3316346ED4009D4F34 /* SenTestingKit.framework */; };
 		29E30E3516346ED4009D4F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E0F16346ED3009D4F34 /* UIKit.framework */; };
 		29E30E3616346ED4009D4F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E1116346ED3009D4F34 /* Foundation.framework */; };
 		29E30E3E16346ED4009D4F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E30E3C16346ED4009D4F34 /* InfoPlist.strings */; };
@@ -163,7 +162,6 @@
 		29E30E1E16346ED3009D4F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		29E30E1F16346ED3009D4F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		29E30E3216346ED4009D4F34 /* GM CalendarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GM CalendarTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		29E30E3316346ED4009D4F34 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		29E30E3B16346ED4009D4F34 /* GM CalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GM CalendarTests-Info.plist"; sourceTree = "<group>"; };
 		29E30E3D16346ED4009D4F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		29E30E3F16346ED4009D4F34 /* GM_CalendarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GM_CalendarTests.h; sourceTree = "<group>"; };
@@ -206,7 +204,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				29E30E3416346ED4009D4F34 /* SenTestingKit.framework in Frameworks */,
 				29E30E3516346ED4009D4F34 /* UIKit.framework in Frameworks */,
 				29E30E3616346ED4009D4F34 /* Foundation.framework in Frameworks */,
 			);
@@ -379,7 +376,6 @@
 				29E30E0F16346ED3009D4F34 /* UIKit.framework */,
 				29E30E1116346ED3009D4F34 /* Foundation.framework */,
 				29E30E1316346ED3009D4F34 /* CoreGraphics.framework */,
-				29E30E3316346ED4009D4F34 /* SenTestingKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -516,7 +512,7 @@
 			name = "GM CalendarTests";
 			productName = "GM CalendarTests";
 			productReference = 29E30E3216346ED4009D4F34 /* GM CalendarTests.octest */;
-			productType = "com.apple.product-type.bundle.ocunit-test";
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -776,13 +772,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GM Calendar/GM Calendar-Prefix.pch";
 				INFOPLIST_FILE = "GM CalendarTests/GM CalendarTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -793,13 +789,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "GM Calendar/GM Calendar-Prefix.pch";
 				INFOPLIST_FILE = "GM CalendarTests/GM CalendarTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

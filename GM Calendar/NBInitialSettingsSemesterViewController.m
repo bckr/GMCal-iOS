@@ -60,7 +60,7 @@
     static NSString *CellIdentifier = @"SemesterCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%u. Semester", (indexPath.row + 1)];
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld. Semester", (indexPath.row + 1)];
     
     return cell;
 }
@@ -68,7 +68,7 @@
 #pragma mark - Table view delegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-    unsigned semester = indexPath.row + 1;
+    unsigned semester = (int)indexPath.row + 1;
     NSLog(@"Selected semester: %d", semester);
     [[NSUserDefaults standardUserDefaults] setInteger:semester forKey:@"semester"];
     [self performSegueWithIdentifier:@"summarySegue" sender:self];

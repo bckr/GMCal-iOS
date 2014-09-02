@@ -134,7 +134,7 @@
         NSDateComponents *start = [NBSchedule timeForPeriod:[self.currentClass.start intValue]];
         NSDateComponents *end = [NBSchedule timeForPeriod:[self.currentClass endOfClass]];
         NSString *day = [NBSchedule dayForPeriod:[self.currentClass.day intValue]];
-        ((NBClassCompactCell *)cell).classTime.text = [NSString stringWithFormat:@"%@: %02d:%02d - %02d:%02d", day, start.hour, start.minute, end.hour, end.minute];
+        ((NBClassCompactCell *)cell).classTime.text = [NSString stringWithFormat:@"%@: %02ld:%02ld - %02ld:%02ld", day, (long)start.hour, (long)start.minute, (long)end.hour, (long)end.minute];
         ((NBClassCompactCell *)cell).classTypeIndicatorColor = [NBSchedule colorForTypeOfClass:self.currentClass];
     } else if (indexPath.section == 1) {
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -145,7 +145,7 @@
                 break;
             case 1:
                 cell.textLabel.text = @"Zeit";
-                cell.detailTextLabel.text = [NSString stringWithFormat:@"%02d:%02d - %02d:%02d", start.hour, start.minute, end.hour, end.minute];;
+                cell.detailTextLabel.text = [NSString stringWithFormat:@"%02ld:%02ld - %02ld:%02ld", (long)start.hour, (long)start.minute, (long)end.hour, (long)end.minute];;
                 break;
             case 2:
                 cell.textLabel.text = @"Raum";

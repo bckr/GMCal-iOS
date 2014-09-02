@@ -46,7 +46,7 @@
     static NSString *CellIdentifier = @"semesterCell";
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
     
-    cell.textLabel.text = [NSString stringWithFormat:@"%d. Semester", indexPath.row + 1];
+    cell.textLabel.text = [NSString stringWithFormat:@"%ld. Semester", indexPath.row + 1];
     
     return cell;
 }
@@ -59,7 +59,7 @@
 
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
     NBSettingsAddModuleModulesTableViewController *nextView = segue.destinationViewController;
-    nextView.semester = self.tableView.indexPathForSelectedRow.row + 1;
+    nextView.semester = (int)self.tableView.indexPathForSelectedRow.row + 1;
 }
 
 @end

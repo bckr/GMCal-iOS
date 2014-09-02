@@ -236,7 +236,7 @@
 }
 
 - (unsigned)semester {
-    return [[NSUserDefaults standardUserDefaults] integerForKey:@"semester"];
+    return (int)[[NSUserDefaults standardUserDefaults] integerForKey:@"semester"];
 }
 
 - (NSUInteger)courseCount {
