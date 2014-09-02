@@ -6,8 +6,8 @@
 //  Copyright (c) 2012 Nils Becker. All rights reserved.
 //
 
-#import <SenTestingKit/SenTestingKit.h>
+#import <XCTest/XCTest.h>
 
-@interface GM_CalendarTests : SenTestCase
+@interface GM_CalendarTests : XCTestCase
 
 @end
