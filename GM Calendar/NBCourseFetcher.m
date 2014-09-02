@@ -45,7 +45,6 @@
     NSLog(@"Started fetching appointments");
     self.courses = [[NSMutableSet alloc] initWithCapacity:10];
 #warning api currently not working!
-    NSLog(@"%@", [NSString stringWithFormat:@"http://gmcal.nils-becker.com/cal/%@/%@/%d", _major, _branch, _semester]);
     NSURL *requestURL = [NSURL URLWithString:[NSString stringWithFormat:@"http://nils-becker.com/calendar/%@/%@/%d", _major, _branch, _semester]];
     
     NSURLRequest *request = [[NSURLRequest alloc] initWithURL:requestURL cachePolicy:NSURLCacheStorageNotAllowed timeoutInterval:10.0];
