@@ -1,0 +1,852 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2903506016A8A809003D7CE4 /* NBClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2903505F16A8A809003D7CE4 /* NBClassCell.m */; };
+		2903506116A8AAE1003D7CE4 /* NBClassCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2903505F16A8A809003D7CE4 /* NBClassCell.m */; };
+		290DE1BB16D2F09200D829FE /* NBLesson.m in Sources */ = {isa = PBXBuildFile; fileRef = 290DE1BA16D2F09200D829FE /* NBLesson.m */; };
+		290DE1C016D43A1A00D829FE /* NBIndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 290DE1BF16D43A1A00D829FE /* NBIndicatorView.m */; };
+		290E6EB6163D7C00008CC4D2 /* NBCalendarWeekViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E6EB5163D7C00008CC4D2 /* NBCalendarWeekViewController.m */; };
+		2918156416C98CC0009187DB /* NBLecturerDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2918156316C98CBF009187DB /* NBLecturerDetailViewController.m */; };
+		2918156816C98FCE009187DB /* NBActivityIndicatorCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2918156716C98FCE009187DB /* NBActivityIndicatorCell.m */; };
+		292A742716F3B8C7005B1FC5 /* NBScheduleTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 292A742616F3B8C7005B1FC5 /* NBScheduleTVC.m */; };
+		2931C6BF16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2931C6BE16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.m */; };
+		2931C6C316CD89AB009C8CDD /* NBCourseFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 2931C6C216CD89AB009C8CDD /* NBCourseFetcher.m */; };
+		293FDB6716AF465400395057 /* NBClassDetailHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 293FDB6616AF465400395057 /* NBClassDetailHeaderCell.m */; };
+		29556CF816C6CCE1001E8E20 /* NBLesson+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 29556CF716C6CCE1001E8E20 /* NBLesson+Management.m */; };
+		2957EB9616A2221D00A32AD3 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2957EB9516A2221D00A32AD3 /* CoreData.framework */; };
+		2957EB9916A222A400A32AD3 /* Calendar.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2957EB9716A222A400A32AD3 /* Calendar.xcdatamodeld */; };
+		296A893E16D18BAD00073CA6 /* NBClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 296A893D16D18BAD00073CA6 /* NBClass.m */; };
+		296A99DE16C70C86009366C4 /* NBClass+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 296A99DD16C70C86009366C4 /* NBClass+Management.m */; };
+		296A99EA16C71535009366C4 /* NBLecturer+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 296A99E916C71535009366C4 /* NBLecturer+Management.m */; };
+		2991371C16C4160C005BCD22 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 2991371B16C4160C005BCD22 /* README.md */; };
+		299EFD3516DD8B2200117317 /* NBNewsItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 299EFD3416DD8B2200117317 /* NBNewsItem.m */; };
+		299EFD3816DD8BA900117317 /* NBNewsItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 299EFD3716DD8BA900117317 /* NBNewsItemCell.m */; };
+		29A40C2D16E25F4A00A82E1B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 29A40C2C16E25F4900A82E1B /* MainStoryboard.storyboard */; };
+		29A40C4F16E2AE3800A82E1B /* NBInitialSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A40C4E16E2AE3800A82E1B /* NBInitialSettingsViewController.m */; };
+		29A40C5E16E55CEE00A82E1B /* NBCourseCompactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A40C5D16E55CED00A82E1B /* NBCourseCompactCell.m */; };
+		29A40C6116E6717A00A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A40C6016E6717A00A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.m */; };
+		29A40C6716E6AD5500A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29A40C6616E6AD5400A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.m */; };
+		29B2348916D80F6A0069D6BF /* NBNewsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B2348816D80F6A0069D6BF /* NBNewsTableViewController.m */; };
+		29B2348C16D810890069D6BF /* NBNewsFeedFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B2348B16D810890069D6BF /* NBNewsFeedFetcher.m */; };
+		29B2349616D974720069D6BF /* NBNewsItem+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B2349516D974720069D6BF /* NBNewsItem+Management.m */; };
+		29B234A516DAD4FE0069D6BF /* NBCourse+Management.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B234A416DAD4FE0069D6BF /* NBCourse+Management.m */; };
+		29B7763016E00A4200CF260D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29B7762F16E00A4200CF260D /* MessageUI.framework */; };
+		29C03FC619B3D57400F9CE66 /* NBClassDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C03FC519B3D57400F9CE66 /* NBClassDetailTableViewController.m */; };
+		29C03FC919B3D57E00F9CE66 /* NBLecturer.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C03FC819B3D57E00F9CE66 /* NBLecturer.m */; };
+		29C03FCC19B3D5D800F9CE66 /* NBNewsDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C03FCB19B3D5D800F9CE66 /* NBNewsDetailViewController.m */; };
+		29C03FCF19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C03FCE19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.m */; };
+		29C03FD219B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29C03FD119B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.m */; };
+		29C6AF2716A99FCE009AA488 /* NBCalendarDayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 290E6EB8163D7ECA008CC4D2 /* NBCalendarDayViewController.m */; };
+		29D0832B1634B7FE00D46B16 /* NBSchedule.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D0832A1634B7FE00D46B16 /* NBSchedule.m */; };
+		29D0833D1635D84100D46B16 /* NSDate+Week.m in Sources */ = {isa = PBXBuildFile; fileRef = 29D0833C1635D84100D46B16 /* NSDate+Week.m */; };
+		29DACC23183976190032CDBA /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = 29DACC22183976190032CDBA /* UIColor+Hex.m */; };
+		29DACC52183C1ACB0032CDBA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 29DACC51183C1ACB0032CDBA /* Images.xcassets */; };
+		29E30E1016346ED3009D4F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E0F16346ED3009D4F34 /* UIKit.framework */; };
+		29E30E1216346ED3009D4F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E1116346ED3009D4F34 /* Foundation.framework */; };
+		29E30E1416346ED3009D4F34 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E1316346ED3009D4F34 /* CoreGraphics.framework */; };
+		29E30E1A16346ED3009D4F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E30E1816346ED3009D4F34 /* InfoPlist.strings */; };
+		29E30E1C16346ED3009D4F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E30E1B16346ED3009D4F34 /* main.m */; };
+		29E30E2016346ED3009D4F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E30E1F16346ED3009D4F34 /* AppDelegate.m */; };
+		29E30E3416346ED4009D4F34 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E3316346ED4009D4F34 /* SenTestingKit.framework */; };
+		29E30E3516346ED4009D4F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E0F16346ED3009D4F34 /* UIKit.framework */; };
+		29E30E3616346ED4009D4F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E1116346ED3009D4F34 /* Foundation.framework */; };
+		29E30E3E16346ED4009D4F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 29E30E3C16346ED4009D4F34 /* InfoPlist.strings */; };
+		29E30E4116346ED4009D4F34 /* GM_CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 29E30E4016346ED4009D4F34 /* GM_CalendarTests.m */; };
+		29E30E5D163470DD009D4F34 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29E30E5C163470DD009D4F34 /* QuartzCore.framework */; };
+		29EF89D016C822CF002896F1 /* NBInitialSettingsBranchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF89CF16C822CF002896F1 /* NBInitialSettingsBranchViewController.m */; };
+		29EF89D316C822E1002896F1 /* NBInitialSettingsSemesterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29EF89D216C822E1002896F1 /* NBInitialSettingsSemesterViewController.m */; };
+		29F0B56616C9AF51002483AB /* NBClassCompactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B56516C9AF50002483AB /* NBClassCompactCell.m */; };
+		29F0B56F16CAC315002483AB /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B56E16CAC315002483AB /* NSString+Extensions.m */; };
+		29F0B57616CC0E84002483AB /* NBAppSettingsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B57516CC0E84002483AB /* NBAppSettingsTableViewController.m */; };
+		29F0B57916CC0ED5002483AB /* NBAppSettingsModifyScheduleTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B57816CC0ED5002483AB /* NBAppSettingsModifyScheduleTableViewController.m */; };
+		29F0B57C16CC27F1002483AB /* NBCourse.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B57B16CC27F0002483AB /* NBCourse.m */; };
+		29F0B58616CD6E7C002483AB /* NBSettingsAddModuleSemestersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29F0B58516CD6E7C002483AB /* NBSettingsAddModuleSemestersTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E30E3716346ED4009D4F34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29E30E0216346ED3009D4F34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 29E30E0A16346ED3009D4F34;
+			remoteInfo = "GM Calendar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2903505E16A8A809003D7CE4 /* NBClassCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClassCell.h; sourceTree = "<group>"; };
+		2903505F16A8A809003D7CE4 /* NBClassCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClassCell.m; sourceTree = "<group>"; };
+		290DE1B916D2F09200D829FE /* NBLesson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLesson.h; sourceTree = "<group>"; };
+		290DE1BA16D2F09200D829FE /* NBLesson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLesson.m; sourceTree = "<group>"; };
+		290DE1BE16D43A1A00D829FE /* NBIndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBIndicatorView.h; sourceTree = "<group>"; };
+		290DE1BF16D43A1A00D829FE /* NBIndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBIndicatorView.m; sourceTree = "<group>"; };
+		290E6EB4163D7C00008CC4D2 /* NBCalendarWeekViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCalendarWeekViewController.h; sourceTree = "<group>"; };
+		290E6EB5163D7C00008CC4D2 /* NBCalendarWeekViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCalendarWeekViewController.m; sourceTree = "<group>"; };
+		290E6EB7163D7ECA008CC4D2 /* NBCalendarDayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCalendarDayViewController.h; sourceTree = "<group>"; };
+		290E6EB8163D7ECA008CC4D2 /* NBCalendarDayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCalendarDayViewController.m; sourceTree = "<group>"; };
+		2918156216C98CBF009187DB /* NBLecturerDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLecturerDetailViewController.h; sourceTree = "<group>"; };
+		2918156316C98CBF009187DB /* NBLecturerDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLecturerDetailViewController.m; sourceTree = "<group>"; };
+		2918156616C98FCE009187DB /* NBActivityIndicatorCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBActivityIndicatorCell.h; sourceTree = "<group>"; };
+		2918156716C98FCE009187DB /* NBActivityIndicatorCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBActivityIndicatorCell.m; sourceTree = "<group>"; };
+		292A742516F3B8C7005B1FC5 /* NBScheduleTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBScheduleTVC.h; sourceTree = "<group>"; };
+		292A742616F3B8C7005B1FC5 /* NBScheduleTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBScheduleTVC.m; sourceTree = "<group>"; };
+		2931C6BD16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSettingsAddModuleModulesTableViewController.h; sourceTree = "<group>"; };
+		2931C6BE16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSettingsAddModuleModulesTableViewController.m; sourceTree = "<group>"; };
+		2931C6C116CD89AB009C8CDD /* NBCourseFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCourseFetcher.h; sourceTree = "<group>"; };
+		2931C6C216CD89AB009C8CDD /* NBCourseFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCourseFetcher.m; sourceTree = "<group>"; };
+		293FDB6516AF465300395057 /* NBClassDetailHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClassDetailHeaderCell.h; sourceTree = "<group>"; };
+		293FDB6616AF465400395057 /* NBClassDetailHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClassDetailHeaderCell.m; sourceTree = "<group>"; };
+		29556CF616C6CCE1001E8E20 /* NBLesson+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBLesson+Management.h"; sourceTree = "<group>"; };
+		29556CF716C6CCE1001E8E20 /* NBLesson+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBLesson+Management.m"; sourceTree = "<group>"; };
+		2957EB9516A2221D00A32AD3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2957EB9816A222A400A32AD3 /* Calendar.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Calendar.xcdatamodel; sourceTree = "<group>"; };
+		296A893C16D18BAD00073CA6 /* NBClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClass.h; sourceTree = "<group>"; };
+		296A893D16D18BAD00073CA6 /* NBClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClass.m; sourceTree = "<group>"; };
+		296A99DC16C70C86009366C4 /* NBClass+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBClass+Management.h"; sourceTree = "<group>"; };
+		296A99DD16C70C86009366C4 /* NBClass+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBClass+Management.m"; sourceTree = "<group>"; };
+		296A99E816C71535009366C4 /* NBLecturer+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBLecturer+Management.h"; sourceTree = "<group>"; };
+		296A99E916C71535009366C4 /* NBLecturer+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBLecturer+Management.m"; sourceTree = "<group>"; };
+		2991371B16C4160C005BCD22 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		299EFD3316DD8B2200117317 /* NBNewsItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNewsItem.h; sourceTree = "<group>"; };
+		299EFD3416DD8B2200117317 /* NBNewsItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNewsItem.m; sourceTree = "<group>"; };
+		299EFD3616DD8BA900117317 /* NBNewsItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNewsItemCell.h; sourceTree = "<group>"; };
+		299EFD3716DD8BA900117317 /* NBNewsItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNewsItemCell.m; sourceTree = "<group>"; };
+		29A40C2C16E25F4900A82E1B /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		29A40C4D16E2AE3800A82E1B /* NBInitialSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsViewController.h; sourceTree = "<group>"; };
+		29A40C4E16E2AE3800A82E1B /* NBInitialSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsViewController.m; sourceTree = "<group>"; };
+		29A40C5C16E55CED00A82E1B /* NBCourseCompactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCourseCompactCell.h; sourceTree = "<group>"; };
+		29A40C5D16E55CED00A82E1B /* NBCourseCompactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCourseCompactCell.m; sourceTree = "<group>"; };
+		29A40C5F16E6717900A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsCustomizeSeminarsTableViewController.h; sourceTree = "<group>"; };
+		29A40C6016E6717A00A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsCustomizeSeminarsTableViewController.m; sourceTree = "<group>"; };
+		29A40C6516E6AD5300A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsCustomizeCoursesTableViewController.h; sourceTree = "<group>"; };
+		29A40C6616E6AD5400A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsCustomizeCoursesTableViewController.m; sourceTree = "<group>"; };
+		29B2348716D80F6A0069D6BF /* NBNewsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNewsTableViewController.h; sourceTree = "<group>"; };
+		29B2348816D80F6A0069D6BF /* NBNewsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNewsTableViewController.m; sourceTree = "<group>"; };
+		29B2348A16D810890069D6BF /* NBNewsFeedFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNewsFeedFetcher.h; sourceTree = "<group>"; };
+		29B2348B16D810890069D6BF /* NBNewsFeedFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNewsFeedFetcher.m; sourceTree = "<group>"; };
+		29B2349416D974720069D6BF /* NBNewsItem+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBNewsItem+Management.h"; sourceTree = "<group>"; };
+		29B2349516D974720069D6BF /* NBNewsItem+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBNewsItem+Management.m"; sourceTree = "<group>"; };
+		29B234A316DAD4FE0069D6BF /* NBCourse+Management.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NBCourse+Management.h"; sourceTree = "<group>"; };
+		29B234A416DAD4FE0069D6BF /* NBCourse+Management.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NBCourse+Management.m"; sourceTree = "<group>"; };
+		29B7762F16E00A4200CF260D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		29C03FC419B3D57400F9CE66 /* NBClassDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClassDetailTableViewController.h; sourceTree = "<group>"; };
+		29C03FC519B3D57400F9CE66 /* NBClassDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClassDetailTableViewController.m; sourceTree = "<group>"; };
+		29C03FC719B3D57E00F9CE66 /* NBLecturer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBLecturer.h; sourceTree = "<group>"; };
+		29C03FC819B3D57E00F9CE66 /* NBLecturer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBLecturer.m; sourceTree = "<group>"; };
+		29C03FCA19B3D5D800F9CE66 /* NBNewsDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBNewsDetailViewController.h; sourceTree = "<group>"; };
+		29C03FCB19B3D5D800F9CE66 /* NBNewsDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBNewsDetailViewController.m; sourceTree = "<group>"; };
+		29C03FCD19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsMajorTableViewController.h; sourceTree = "<group>"; };
+		29C03FCE19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsMajorTableViewController.m; sourceTree = "<group>"; };
+		29C03FD019B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsSummaryTableViewController.h; sourceTree = "<group>"; };
+		29C03FD119B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsSummaryTableViewController.m; sourceTree = "<group>"; };
+		29D083291634B7FE00D46B16 /* NBSchedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSchedule.h; sourceTree = "<group>"; };
+		29D0832A1634B7FE00D46B16 /* NBSchedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSchedule.m; sourceTree = "<group>"; };
+		29D0833B1635D84100D46B16 /* NSDate+Week.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Week.h"; sourceTree = "<group>"; };
+		29D0833C1635D84100D46B16 /* NSDate+Week.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Week.m"; sourceTree = "<group>"; };
+		29DACC21183976070032CDBA /* UIColor+Hex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		29DACC22183976190032CDBA /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		29DACC51183C1ACB0032CDBA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		29E30E0B16346ED3009D4F34 /* GM Calendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GM Calendar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E30E0F16346ED3009D4F34 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		29E30E1116346ED3009D4F34 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		29E30E1316346ED3009D4F34 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29E30E1716346ED3009D4F34 /* GM Calendar-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GM Calendar-Info.plist"; sourceTree = "<group>"; };
+		29E30E1916346ED3009D4F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29E30E1B16346ED3009D4F34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29E30E1D16346ED3009D4F34 /* GM Calendar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GM Calendar-Prefix.pch"; sourceTree = "<group>"; };
+		29E30E1E16346ED3009D4F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		29E30E1F16346ED3009D4F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		29E30E3216346ED4009D4F34 /* GM CalendarTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GM CalendarTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29E30E3316346ED4009D4F34 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		29E30E3B16346ED4009D4F34 /* GM CalendarTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GM CalendarTests-Info.plist"; sourceTree = "<group>"; };
+		29E30E3D16346ED4009D4F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		29E30E3F16346ED4009D4F34 /* GM_CalendarTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GM_CalendarTests.h; sourceTree = "<group>"; };
+		29E30E4016346ED4009D4F34 /* GM_CalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GM_CalendarTests.m; sourceTree = "<group>"; };
+		29E30E5C163470DD009D4F34 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		29E30E5E163471AE009D4F34 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		29EF89CE16C822CF002896F1 /* NBInitialSettingsBranchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsBranchViewController.h; sourceTree = "<group>"; };
+		29EF89CF16C822CF002896F1 /* NBInitialSettingsBranchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsBranchViewController.m; sourceTree = "<group>"; };
+		29EF89D116C822E1002896F1 /* NBInitialSettingsSemesterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBInitialSettingsSemesterViewController.h; sourceTree = "<group>"; };
+		29EF89D216C822E1002896F1 /* NBInitialSettingsSemesterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBInitialSettingsSemesterViewController.m; sourceTree = "<group>"; };
+		29F0B56416C9AF50002483AB /* NBClassCompactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBClassCompactCell.h; sourceTree = "<group>"; };
+		29F0B56516C9AF50002483AB /* NBClassCompactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBClassCompactCell.m; sourceTree = "<group>"; };
+		29F0B56D16CAC315002483AB /* NSString+Extensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extensions.h"; sourceTree = "<group>"; };
+		29F0B56E16CAC315002483AB /* NSString+Extensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extensions.m"; sourceTree = "<group>"; };
+		29F0B57416CC0E84002483AB /* NBAppSettingsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAppSettingsTableViewController.h; sourceTree = "<group>"; };
+		29F0B57516CC0E84002483AB /* NBAppSettingsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAppSettingsTableViewController.m; sourceTree = "<group>"; };
+		29F0B57716CC0ED4002483AB /* NBAppSettingsModifyScheduleTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBAppSettingsModifyScheduleTableViewController.h; sourceTree = "<group>"; };
+		29F0B57816CC0ED5002483AB /* NBAppSettingsModifyScheduleTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBAppSettingsModifyScheduleTableViewController.m; sourceTree = "<group>"; };
+		29F0B57A16CC27F0002483AB /* NBCourse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBCourse.h; sourceTree = "<group>"; };
+		29F0B57B16CC27F0002483AB /* NBCourse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBCourse.m; sourceTree = "<group>"; };
+		29F0B58416CD6E7B002483AB /* NBSettingsAddModuleSemestersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NBSettingsAddModuleSemestersTableViewController.h; sourceTree = "<group>"; };
+		29F0B58516CD6E7C002483AB /* NBSettingsAddModuleSemestersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NBSettingsAddModuleSemestersTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		29E30E0816346ED3009D4F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29B7763016E00A4200CF260D /* MessageUI.framework in Frameworks */,
+				2957EB9616A2221D00A32AD3 /* CoreData.framework in Frameworks */,
+				29E30E5D163470DD009D4F34 /* QuartzCore.framework in Frameworks */,
+				29E30E1016346ED3009D4F34 /* UIKit.framework in Frameworks */,
+				29E30E1216346ED3009D4F34 /* Foundation.framework in Frameworks */,
+				29E30E1416346ED3009D4F34 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E30E2E16346ED4009D4F34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E30E3416346ED4009D4F34 /* SenTestingKit.framework in Frameworks */,
+				29E30E3516346ED4009D4F34 /* UIKit.framework in Frameworks */,
+				29E30E3616346ED4009D4F34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		290DE1BC16D439B800D829FE /* Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				292A742516F3B8C7005B1FC5 /* NBScheduleTVC.h */,
+				292A742616F3B8C7005B1FC5 /* NBScheduleTVC.m */,
+				290E6EB7163D7ECA008CC4D2 /* NBCalendarDayViewController.h */,
+				290E6EB8163D7ECA008CC4D2 /* NBCalendarDayViewController.m */,
+				29C03FC419B3D57400F9CE66 /* NBClassDetailTableViewController.h */,
+				29C03FC519B3D57400F9CE66 /* NBClassDetailTableViewController.m */,
+				290E6EB4163D7C00008CC4D2 /* NBCalendarWeekViewController.h */,
+				290E6EB5163D7C00008CC4D2 /* NBCalendarWeekViewController.m */,
+				2918156216C98CBF009187DB /* NBLecturerDetailViewController.h */,
+				2918156316C98CBF009187DB /* NBLecturerDetailViewController.m */,
+				2918156616C98FCE009187DB /* NBActivityIndicatorCell.h */,
+				2918156716C98FCE009187DB /* NBActivityIndicatorCell.m */,
+				290DE1BD16D439CD00D829FE /* Cells */,
+			);
+			name = Schedule;
+			sourceTree = "<group>";
+		};
+		290DE1BD16D439CD00D829FE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2903505E16A8A809003D7CE4 /* NBClassCell.h */,
+				2903505F16A8A809003D7CE4 /* NBClassCell.m */,
+				29F0B56416C9AF50002483AB /* NBClassCompactCell.h */,
+				29F0B56516C9AF50002483AB /* NBClassCompactCell.m */,
+				29A40C5C16E55CED00A82E1B /* NBCourseCompactCell.h */,
+				29C03FCA19B3D5D800F9CE66 /* NBNewsDetailViewController.h */,
+				29C03FCB19B3D5D800F9CE66 /* NBNewsDetailViewController.m */,
+				29A40C5D16E55CED00A82E1B /* NBCourseCompactCell.m */,
+				293FDB6516AF465300395057 /* NBClassDetailHeaderCell.h */,
+				293FDB6616AF465400395057 /* NBClassDetailHeaderCell.m */,
+				290DE1BE16D43A1A00D829FE /* NBIndicatorView.h */,
+				290DE1BF16D43A1A00D829FE /* NBIndicatorView.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		29497FAE16496CD60013E155 /* Initial Settings */ = {
+			isa = PBXGroup;
+			children = (
+				29A40C4D16E2AE3800A82E1B /* NBInitialSettingsViewController.h */,
+				29A40C4E16E2AE3800A82E1B /* NBInitialSettingsViewController.m */,
+				29EF89CE16C822CF002896F1 /* NBInitialSettingsBranchViewController.h */,
+				29EF89CF16C822CF002896F1 /* NBInitialSettingsBranchViewController.m */,
+				29EF89D116C822E1002896F1 /* NBInitialSettingsSemesterViewController.h */,
+				29EF89D216C822E1002896F1 /* NBInitialSettingsSemesterViewController.m */,
+				29C03FCD19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.h */,
+				29C03FCE19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.m */,
+				29C03FD019B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.h */,
+				29C03FD119B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.m */,
+				29A40C5F16E6717900A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.h */,
+				29A40C6016E6717A00A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.m */,
+				29A40C6516E6AD5300A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.h */,
+				29A40C6616E6AD5400A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.m */,
+			);
+			name = "Initial Settings";
+			sourceTree = "<group>";
+		};
+		29B2348116D80D8C0069D6BF /* News */ = {
+			isa = PBXGroup;
+			children = (
+				29B2348716D80F6A0069D6BF /* NBNewsTableViewController.h */,
+				29B2348816D80F6A0069D6BF /* NBNewsTableViewController.m */,
+				299EFD3616DD8BA900117317 /* NBNewsItemCell.h */,
+				299EFD3716DD8BA900117317 /* NBNewsItemCell.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		29B2349116D8202B0069D6BF /* Class Schedule */ = {
+			isa = PBXGroup;
+			children = (
+				29F0B57A16CC27F0002483AB /* NBCourse.h */,
+				29F0B57B16CC27F0002483AB /* NBCourse.m */,
+				296A893C16D18BAD00073CA6 /* NBClass.h */,
+				296A893D16D18BAD00073CA6 /* NBClass.m */,
+				290DE1B916D2F09200D829FE /* NBLesson.h */,
+				290DE1BA16D2F09200D829FE /* NBLesson.m */,
+				29C03FC719B3D57E00F9CE66 /* NBLecturer.h */,
+				29C03FC819B3D57E00F9CE66 /* NBLecturer.m */,
+				296A99DC16C70C86009366C4 /* NBClass+Management.h */,
+				296A99DD16C70C86009366C4 /* NBClass+Management.m */,
+				29556CF616C6CCE1001E8E20 /* NBLesson+Management.h */,
+				29556CF716C6CCE1001E8E20 /* NBLesson+Management.m */,
+				296A99E816C71535009366C4 /* NBLecturer+Management.h */,
+				296A99E916C71535009366C4 /* NBLecturer+Management.m */,
+				29B234A316DAD4FE0069D6BF /* NBCourse+Management.h */,
+				29B234A416DAD4FE0069D6BF /* NBCourse+Management.m */,
+			);
+			name = "Class Schedule";
+			sourceTree = "<group>";
+		};
+		29B2349216D8203F0069D6BF /* Newsfeed */ = {
+			isa = PBXGroup;
+			children = (
+				299EFD3316DD8B2200117317 /* NBNewsItem.h */,
+				299EFD3416DD8B2200117317 /* NBNewsItem.m */,
+				29B2349416D974720069D6BF /* NBNewsItem+Management.h */,
+				29B2349516D974720069D6BF /* NBNewsItem+Management.m */,
+			);
+			name = Newsfeed;
+			sourceTree = "<group>";
+		};
+		29D0831B1634AFB900D46B16 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				29DACC21183976070032CDBA /* UIColor+Hex.h */,
+				29DACC22183976190032CDBA /* UIColor+Hex.m */,
+				29D0833B1635D84100D46B16 /* NSDate+Week.h */,
+				29D0833C1635D84100D46B16 /* NSDate+Week.m */,
+				29F0B56D16CAC315002483AB /* NSString+Extensions.h */,
+				29F0B56E16CAC315002483AB /* NSString+Extensions.m */,
+				29D083291634B7FE00D46B16 /* NBSchedule.h */,
+				29D0832A1634B7FE00D46B16 /* NBSchedule.m */,
+				2931C6C116CD89AB009C8CDD /* NBCourseFetcher.h */,
+				2931C6C216CD89AB009C8CDD /* NBCourseFetcher.m */,
+				29B2348A16D810890069D6BF /* NBNewsFeedFetcher.h */,
+				29B2348B16D810890069D6BF /* NBNewsFeedFetcher.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		29D0832F1634B85600D46B16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2957EB9716A222A400A32AD3 /* Calendar.xcdatamodeld */,
+				29B2349216D8203F0069D6BF /* Newsfeed */,
+				29B2349116D8202B0069D6BF /* Class Schedule */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29E30E0016346ED3009D4F34 = {
+			isa = PBXGroup;
+			children = (
+				29E30E1516346ED3009D4F34 /* GM Calendar */,
+				29E30E3916346ED4009D4F34 /* GM CalendarTests */,
+				29E30E0E16346ED3009D4F34 /* Frameworks */,
+				29E30E0C16346ED3009D4F34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		29E30E0C16346ED3009D4F34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				29E30E0B16346ED3009D4F34 /* GM Calendar.app */,
+				29E30E3216346ED4009D4F34 /* GM CalendarTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29E30E0E16346ED3009D4F34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B7762F16E00A4200CF260D /* MessageUI.framework */,
+				29E30E4A16346F27009D4F34 /* External */,
+				2957EB9516A2221D00A32AD3 /* CoreData.framework */,
+				29E30E5E163471AE009D4F34 /* MapKit.framework */,
+				29E30E5C163470DD009D4F34 /* QuartzCore.framework */,
+				29E30E0F16346ED3009D4F34 /* UIKit.framework */,
+				29E30E1116346ED3009D4F34 /* Foundation.framework */,
+				29E30E1316346ED3009D4F34 /* CoreGraphics.framework */,
+				29E30E3316346ED4009D4F34 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		29E30E1516346ED3009D4F34 /* GM Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2991371B16C4160C005BCD22 /* README.md */,
+				29E30E61163471C9009D4F34 /* App Delegate */,
+				29D0831B1634AFB900D46B16 /* Helper */,
+				29D0832F1634B85600D46B16 /* Model */,
+				29E30E60163471C1009D4F34 /* Views */,
+				29DACC51183C1ACB0032CDBA /* Images.xcassets */,
+				29E30E1616346ED3009D4F34 /* Supporting Files */,
+			);
+			path = "GM Calendar";
+			sourceTree = "<group>";
+		};
+		29E30E1616346ED3009D4F34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E30E1716346ED3009D4F34 /* GM Calendar-Info.plist */,
+				29E30E1816346ED3009D4F34 /* InfoPlist.strings */,
+				29E30E1B16346ED3009D4F34 /* main.m */,
+				29E30E1D16346ED3009D4F34 /* GM Calendar-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29E30E3916346ED4009D4F34 /* GM CalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				29E30E3F16346ED4009D4F34 /* GM_CalendarTests.h */,
+				29E30E4016346ED4009D4F34 /* GM_CalendarTests.m */,
+				29E30E3A16346ED4009D4F34 /* Supporting Files */,
+			);
+			path = "GM CalendarTests";
+			sourceTree = "<group>";
+		};
+		29E30E3A16346ED4009D4F34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				29E30E3B16346ED4009D4F34 /* GM CalendarTests-Info.plist */,
+				29E30E3C16346ED4009D4F34 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		29E30E4A16346F27009D4F34 /* External */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = External;
+			sourceTree = "<group>";
+		};
+		29E30E60163471C1009D4F34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				29A40C2C16E25F4900A82E1B /* MainStoryboard.storyboard */,
+				29B2348116D80D8C0069D6BF /* News */,
+				290DE1BC16D439B800D829FE /* Schedule */,
+				29F0B57316CC05E8002483AB /* Settings */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		29E30E61163471C9009D4F34 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				29E30E1E16346ED3009D4F34 /* AppDelegate.h */,
+				29E30E1F16346ED3009D4F34 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		29F0B57216CC05D8002483AB /* App Settings */ = {
+			isa = PBXGroup;
+			children = (
+				29F0B57416CC0E84002483AB /* NBAppSettingsTableViewController.h */,
+				29F0B57516CC0E84002483AB /* NBAppSettingsTableViewController.m */,
+				29F0B57716CC0ED4002483AB /* NBAppSettingsModifyScheduleTableViewController.h */,
+				29F0B57816CC0ED5002483AB /* NBAppSettingsModifyScheduleTableViewController.m */,
+				29F0B58416CD6E7B002483AB /* NBSettingsAddModuleSemestersTableViewController.h */,
+				29F0B58516CD6E7C002483AB /* NBSettingsAddModuleSemestersTableViewController.m */,
+				2931C6BD16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.h */,
+				2931C6BE16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.m */,
+			);
+			name = "App Settings";
+			sourceTree = "<group>";
+		};
+		29F0B57316CC05E8002483AB /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				29F0B57216CC05D8002483AB /* App Settings */,
+				29497FAE16496CD60013E155 /* Initial Settings */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		29E30E0A16346ED3009D4F34 /* GM Calendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E30E4416346ED4009D4F34 /* Build configuration list for PBXNativeTarget "GM Calendar" */;
+			buildPhases = (
+				29E30E0716346ED3009D4F34 /* Sources */,
+				29E30E0816346ED3009D4F34 /* Frameworks */,
+				29E30E0916346ED3009D4F34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GM Calendar";
+			productName = "GM Calendar";
+			productReference = 29E30E0B16346ED3009D4F34 /* GM Calendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		29E30E3116346ED4009D4F34 /* GM CalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 29E30E4716346ED4009D4F34 /* Build configuration list for PBXNativeTarget "GM CalendarTests" */;
+			buildPhases = (
+				29E30E2D16346ED4009D4F34 /* Sources */,
+				29E30E2E16346ED4009D4F34 /* Frameworks */,
+				29E30E2F16346ED4009D4F34 /* Resources */,
+				29E30E3016346ED4009D4F34 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				29E30E3816346ED4009D4F34 /* PBXTargetDependency */,
+			);
+			name = "GM CalendarTests";
+			productName = "GM CalendarTests";
+			productReference = 29E30E3216346ED4009D4F34 /* GM CalendarTests.octest */;
+			productType = "com.apple.product-type.bundle.ocunit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29E30E0216346ED3009D4F34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = NB;
+				LastTestingUpgradeCheck = 0600;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nils Becker";
+			};
+			buildConfigurationList = 29E30E0516346ED3009D4F34 /* Build configuration list for PBXProject "GM Calendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29E30E0016346ED3009D4F34;
+			productRefGroup = 29E30E0C16346ED3009D4F34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				29E30E0A16346ED3009D4F34 /* GM Calendar */,
+				29E30E3116346ED4009D4F34 /* GM CalendarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		29E30E0916346ED3009D4F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E30E1A16346ED3009D4F34 /* InfoPlist.strings in Resources */,
+				2991371C16C4160C005BCD22 /* README.md in Resources */,
+				29DACC52183C1ACB0032CDBA /* Images.xcassets in Resources */,
+				29A40C2D16E25F4A00A82E1B /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E30E2F16346ED4009D4F34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E30E3E16346ED4009D4F34 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		29E30E3016346ED4009D4F34 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		29E30E0716346ED3009D4F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29C6AF2716A99FCE009AA488 /* NBCalendarDayViewController.m in Sources */,
+				29C03FCF19B3D5F700F9CE66 /* NBInitialSettingsMajorTableViewController.m in Sources */,
+				2903506116A8AAE1003D7CE4 /* NBClassCell.m in Sources */,
+				29E30E1C16346ED3009D4F34 /* main.m in Sources */,
+				29E30E2016346ED3009D4F34 /* AppDelegate.m in Sources */,
+				29D0832B1634B7FE00D46B16 /* NBSchedule.m in Sources */,
+				29D0833D1635D84100D46B16 /* NSDate+Week.m in Sources */,
+				290E6EB6163D7C00008CC4D2 /* NBCalendarWeekViewController.m in Sources */,
+				2957EB9916A222A400A32AD3 /* Calendar.xcdatamodeld in Sources */,
+				293FDB6716AF465400395057 /* NBClassDetailHeaderCell.m in Sources */,
+				29556CF816C6CCE1001E8E20 /* NBLesson+Management.m in Sources */,
+				296A99DE16C70C86009366C4 /* NBClass+Management.m in Sources */,
+				296A99EA16C71535009366C4 /* NBLecturer+Management.m in Sources */,
+				29EF89D016C822CF002896F1 /* NBInitialSettingsBranchViewController.m in Sources */,
+				29EF89D316C822E1002896F1 /* NBInitialSettingsSemesterViewController.m in Sources */,
+				2918156416C98CC0009187DB /* NBLecturerDetailViewController.m in Sources */,
+				29C03FC919B3D57E00F9CE66 /* NBLecturer.m in Sources */,
+				2918156816C98FCE009187DB /* NBActivityIndicatorCell.m in Sources */,
+				29F0B56616C9AF51002483AB /* NBClassCompactCell.m in Sources */,
+				29F0B56F16CAC315002483AB /* NSString+Extensions.m in Sources */,
+				29F0B57616CC0E84002483AB /* NBAppSettingsTableViewController.m in Sources */,
+				29F0B57916CC0ED5002483AB /* NBAppSettingsModifyScheduleTableViewController.m in Sources */,
+				29F0B57C16CC27F1002483AB /* NBCourse.m in Sources */,
+				29F0B58616CD6E7C002483AB /* NBSettingsAddModuleSemestersTableViewController.m in Sources */,
+				2931C6BF16CD83D8009C8CDD /* NBSettingsAddModuleModulesTableViewController.m in Sources */,
+				29C03FCC19B3D5D800F9CE66 /* NBNewsDetailViewController.m in Sources */,
+				2931C6C316CD89AB009C8CDD /* NBCourseFetcher.m in Sources */,
+				296A893E16D18BAD00073CA6 /* NBClass.m in Sources */,
+				290DE1BB16D2F09200D829FE /* NBLesson.m in Sources */,
+				290DE1C016D43A1A00D829FE /* NBIndicatorView.m in Sources */,
+				29B2348916D80F6A0069D6BF /* NBNewsTableViewController.m in Sources */,
+				29B2348C16D810890069D6BF /* NBNewsFeedFetcher.m in Sources */,
+				29C03FD219B3D60000F9CE66 /* NBInitialSettingsSummaryTableViewController.m in Sources */,
+				29B2349616D974720069D6BF /* NBNewsItem+Management.m in Sources */,
+				29B234A516DAD4FE0069D6BF /* NBCourse+Management.m in Sources */,
+				299EFD3516DD8B2200117317 /* NBNewsItem.m in Sources */,
+				299EFD3816DD8BA900117317 /* NBNewsItemCell.m in Sources */,
+				29A40C4F16E2AE3800A82E1B /* NBInitialSettingsViewController.m in Sources */,
+				29A40C5E16E55CEE00A82E1B /* NBCourseCompactCell.m in Sources */,
+				29C03FC619B3D57400F9CE66 /* NBClassDetailTableViewController.m in Sources */,
+				29A40C6116E6717A00A82E1B /* NBInitialSettingsCustomizeSeminarsTableViewController.m in Sources */,
+				29DACC23183976190032CDBA /* UIColor+Hex.m in Sources */,
+				29A40C6716E6AD5500A82E1B /* NBInitialSettingsCustomizeCoursesTableViewController.m in Sources */,
+				292A742716F3B8C7005B1FC5 /* NBScheduleTVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		29E30E2D16346ED4009D4F34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29E30E4116346ED4009D4F34 /* GM_CalendarTests.m in Sources */,
+				2903506016A8A809003D7CE4 /* NBClassCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		29E30E3816346ED4009D4F34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 29E30E0A16346ED3009D4F34 /* GM Calendar */;
+			targetProxy = 29E30E3716346ED4009D4F34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		29E30E1816346ED3009D4F34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E30E1916346ED3009D4F34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29E30E3C16346ED4009D4F34 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29E30E3D16346ED4009D4F34 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		29E30E4216346ED4009D4F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		29E30E4316346ED4009D4F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		29E30E4516346ED4009D4F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GM Calendar/GM Calendar-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "GM Calendar/GM Calendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		29E30E4616346ED4009D4F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GM Calendar/GM Calendar-Prefix.pch";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "GM Calendar/GM Calendar-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-all_load",
+					"-ObjC",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		29E30E4816346ED4009D4F34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GM Calendar.app/GM Calendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GM Calendar/GM Calendar-Prefix.pch";
+				INFOPLIST_FILE = "GM CalendarTests/GM CalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		29E30E4916346ED4009D4F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GM Calendar.app/GM Calendar";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GM Calendar/GM Calendar-Prefix.pch";
+				INFOPLIST_FILE = "GM CalendarTests/GM CalendarTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		29E30E0516346ED3009D4F34 /* Build configuration list for PBXProject "GM Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E30E4216346ED4009D4F34 /* Debug */,
+				29E30E4316346ED4009D4F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E30E4416346ED4009D4F34 /* Build configuration list for PBXNativeTarget "GM Calendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E30E4516346ED4009D4F34 /* Debug */,
+				29E30E4616346ED4009D4F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		29E30E4716346ED4009D4F34 /* Build configuration list for PBXNativeTarget "GM CalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				29E30E4816346ED4009D4F34 /* Debug */,
+				29E30E4916346ED4009D4F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2957EB9716A222A400A32AD3 /* Calendar.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2957EB9816A222A400A32AD3 /* Calendar.xcdatamodel */,
+			);
+			currentVersion = 2957EB9816A222A400A32AD3 /* Calendar.xcdatamodel */;
+			path = Calendar.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 29E30E0216346ED3009D4F34 /* Project object */;
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model name="" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="2057" systemVersion="12C60" minimumToolsVersion="Xcode 4.3" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Class" representedClassName="NBClass" syncable="YES">
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="course" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Course" inverseName="classes" inverseEntity="Course" syncable="YES"/>
+        <relationship name="lessons" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Lesson" inverseName="classForLesson" inverseEntity="Lesson" syncable="YES"/>
+    </entity>
+    <entity name="Course" representedClassName="NBCourse" syncable="YES">
+        <attribute name="abbreviation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="classes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Class" inverseName="course" inverseEntity="Class" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="abbreviation"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Lecturer" representedClassName="NBLecturer" syncable="YES">
+        <attribute name="abbreviation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="branch" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="forename" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="form" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="function" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="homepage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="phone" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="room" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="surname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="lessons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Lesson" inverseName="lecturer" inverseEntity="Lesson" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="abbreviation"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="Lesson" representedClassName="NBLesson" syncable="YES">
+        <attribute name="abbreviation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="room" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="start" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="classForLesson" optional="YES" minCount="1" maxCount="1" deletionRule="Nullify" destinationEntity="Class" inverseName="lessons" inverseEntity="Class" syncable="YES"/>
+        <relationship name="lecturer" optional="YES" toMany="YES" minCount="1" deletionRule="Nullify" destinationEntity="Lecturer" inverseName="lessons" inverseEntity="Lecturer" syncable="YES"/>
+        <compoundIndexes>
+            <compoundIndex>
+                <index value="day"/>
+                <index value="room"/>
+            </compoundIndex>
+        </compoundIndexes>
+    </entity>
+    <entity name="NewsItem" representedClassName="NBNewsItem" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="content" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="guid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="link" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="read" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Class" positionX="-1098" positionY="-175" width="126" height="120"/>
+        <element name="Course" positionX="-1334" positionY="-160" width="128" height="88"/>
+        <element name="Lecturer" positionX="-1100" positionY="-36" width="128" height="223"/>
+        <element name="Lesson" positionX="-801" positionY="-81" width="128" height="135"/>
+        <element name="NewsItem" positionX="160" positionY="192" width="128" height="165"/>
+    </elements>
+</model>

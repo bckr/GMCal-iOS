@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Pizza",
+        "type": "Tellergericht 1",
+        "price": 1.9
+    },
+    {
+        "name": "Spagetti",
+        "type": "Tellergericht 2",
+        "price": 2.2
+    },
+    {
+        "name": "Salat, Pommes, Reis",
+        "type": "Beilagen",
+        "price": 0.5
+    }
+]
