@@ -3,7 +3,7 @@
 A mobile calendar for the [Cologne University of Applied Sciences](https://www.fh-koeln.de/en/homepage_26.php).
 
 ## Preview
-![](https://s3-eu-west-1.amazonaws.com/gmcal/app_preview.gif)
+![](http://gmcal.s3.amazonaws.com/GMCal_iOS_Preview.gif)
 
 ## Todo
 - Testing
